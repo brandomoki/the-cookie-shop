@@ -18,14 +18,15 @@ li{
 
 header{
     background-color: blueviolet;
-    height: 100;
+    height: 100px;
 }
 
 h1{
     float: left;
+    /* text-align: center; */
     margin-left: 20px;
-    /* margin-left: 20px; */
-    margin-bottom: 50px;
+    /* margin-top: 30px; */
+    margin-right: 50px;
     color: bisque;
 }
 
@@ -33,7 +34,6 @@ nav li {
     display: inline-block;
     margin-top: 30px;
     margin-right: 20px;
-
 }
 
 nav li a{
@@ -52,17 +52,31 @@ nav li a:hover{
 
 main{
     width: 960px;
-    margin: 20px auto;
+    margin: 30px auto;
     /* min-height: 700px; */
 }
 
 #hero{
-    width: 200px;
-    border: 20px;
+    width: 500px;
+    border: 20px solid black;
     border-radius: 50px;
 }
 
 #hero:hover{
     border: 3px solid;
-    border-radius: ;
+    border-radius: 0;
+}
+
+section{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: lightblue;
+    height: 100px;
+}
+
+footer p{
+    padding-top: 50px;
 }
