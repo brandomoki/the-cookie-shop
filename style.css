@@ -24,7 +24,7 @@ header{
 h1{
     float: left;
     /* text-align: center; */
-    margin-left: 20px;
+    margin-left: 50px;
     /* margin-top: 30px; */
     margin-right: 50px;
     color: bisque;
@@ -56,19 +56,27 @@ main{
     /* min-height: 700px; */
 }
 
+
 #hero{
-    width: 500px;
-    border: 20px solid black;
+    width: 960px;
+    border: 15px solid blueviolet;
     border-radius: 50px;
 }
 
 #hero:hover{
     border: 3px solid;
-    border-radius: 0;
+    border-radius: 50;
 }
 
-section{
-    text-align: center;
+main li{
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+main li:last-child{
+    margin-right: 0;
 }
 
 footer{
