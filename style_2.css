@@ -1,0 +1,68 @@
+/* Cascading Styla Sheets */
+
+body{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace; 
+    margin: 0;
+    padding: 0;    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    background-color: blueviolet;
+    height: 100;
+}
+
+h1{
+    float: left;
+    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin-bottom: 50px;
+    color: bisque;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav li a:hover{
+    color: black;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+main{
+    width: 960px;
+    margin: 20px auto;
+    /* min-height: 700px; */
+}
+
+#hero{
+    width: 200px;
+    border: 20px;
+    border-radius: 50px;
+}
+
+#hero:hover{
+    border: 3px solid;
+    border-radius: ;
+}
