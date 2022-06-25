@@ -10,7 +10,7 @@
 // let lovesCoffee = true; // boolean
 
 let firstName = prompt('What is your Name?');
-let number = prompt('How many Dinos do you hold?'(1-69);
+let number = prompt('How many Dinos do you hold?(1-69)');
 let message = '';
 
 if(number <= 5){
@@ -32,7 +32,7 @@ if(number <= 5){
 
 // console.log('done with program');
 
-document.write('Hello '+ firstName +'! ' + message);
+document.write('Hello '+ firstName +'! ' +'Role ' + message);
 
 // Brandon is not equals to brandon
 // === strict equals
