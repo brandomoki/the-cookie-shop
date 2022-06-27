@@ -13,6 +13,9 @@ let firstName = prompt('What is your Name?');
 let number = prompt('How many Dinos do you hold?(1-69)');
 let message = '';
 
+
+
+
 if(number <= 5){
     message = 'NGMI!!!';
     // console.log('NGMI!!!');
@@ -23,14 +26,16 @@ if(number <= 5){
     message = 'T-Rex!!!';
     // console.log('Good Night!')
 } else if(number >= 69){
-    message = 'Whale!!!'
+    message = 'Whale!!!';
     // console.log('Whale!!!')
 } else{
     message = 'Future Holder!!!'
     // console.log('Future Holder!!!');
 }
 
+
 // console.log('done with program');
+
 
 document.write('Hello '+ firstName +'! ' +'Role ' + message);
 

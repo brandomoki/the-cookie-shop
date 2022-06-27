@@ -27,7 +27,7 @@ h1{
     margin-left: 50px;
     /* margin-top: 30px; */
     margin-right: 50px;
-    color: bisque;
+    color: white;
 }
 
 nav li {
@@ -63,11 +63,6 @@ main{
     border-radius: 50px;
 }
 
-#hero:hover{
-    border: 3px solid;
-    border-radius: 50;
-}
-
 main li{
     float: right;
     margin-right: 30px;
@@ -77,6 +72,13 @@ main li{
 
 main li:last-child{
     margin-right: 0;
+}
+
+p{
+   margin-right: 30px;
+   margin-left: 165px;
+   margin-top: 370px;
+
 }
 
 footer{
