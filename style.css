@@ -9,6 +9,8 @@ body{
 
 ul{
     margin: 0;
+    margin-left: 10px;
+    margin-right: 5px;
     padding: 0;
 }
 
@@ -27,7 +29,7 @@ h1{
     margin-left: 50px;
     /* margin-top: 30px; */
     margin-right: 50px;
-    color: white;
+    color: black;
 }
 
 nav li {
@@ -38,14 +40,14 @@ nav li {
 
 nav li a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: 600;
     font-size: 20px;
     cursor: pointer;
 }
 
 nav li a:hover{
-    color: black;
+    color: white;
     text-decoration: underline;
     font-size: 22px;
 }
@@ -83,10 +85,11 @@ p{
 
 footer{
     text-align: center;
-    background-color: lightblue;
+    background-color: blueviolet;
     height: 100px;
 }
 
 footer p{
     padding-top: 50px;
+    margin-top: 20px;
 }
