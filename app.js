@@ -11,6 +11,7 @@
 
 let firstName = prompt('What is your Name?');
 let number = prompt('How many Dinos do you hold?(1-69)');
+let color = prompt('Whats your favorite color?')
 let message = '';
 
 
@@ -39,6 +40,7 @@ if(number <= 5){
 
 document.write('Hello '+ firstName +'! ' +'Role ' + message);
 
+document.body.style.backgroundColor = color;
 // Brandon is not equals to brandon
 // === strict equals
 // == loose equals (truthy or falsy) '1' == 1
