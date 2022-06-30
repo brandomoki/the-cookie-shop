@@ -19,7 +19,7 @@ function generateGreeting(){
 
 
      if(number <= 5 && number > 0){
-     let number = prompt('Try again sucka!');
+        alert("Try again sucka!")
      } else if(number <= 15){
          message = 'Raptor!!!';
      } else if(number <= 68){
@@ -52,6 +52,14 @@ function generateGreeting(){
  function mintNftNow(){
     let answer = prompt("How many NFT's would you like to purchase?");
     let output = '';
+    while(answer <=1 || answer >= 6 ){
+        if(answer <=1 ){
+            alert("Minimum order of 2 NFT's per wallet.")
+        }else if(answer > 5){
+            alert("Max of 5 NFT's per wallet.")
+        }
+        answer = prompt("How many NFT's would you like to purchase?");
+    }
     for(let x = 0; x < answer; x++){
         output = output + "<img class='star' src='https://bafybeihpepfnbwpigqycoydhd5esrvyrwla7crcejcfzh2n5wyrxle5a5y.ipfs.infura-ipfs.io/' width='200'>"
 
